@@ -93,6 +93,7 @@ a {
 .cover__description {
   z-index: 1;
   display: flex;
+  margin: auto;
   justify-content: space-around;
   align-items: center;
   gap: 115px;
