@@ -11,11 +11,12 @@ body {
 
 .header__logo {
   display: block;
-  width: 125px;
+  width: 140px;
 }
 
 .header__menu-list {
   display: flex;
+  font-size: 18px;
   flex-direction: row;
   gap: 30px;
   list-style: circle;
@@ -191,7 +192,7 @@ body {
   display: grid;
   grid-template-columns: 334px 1fr;
   grid-template-rows: 1fr ;
-  padding-top: 120px;
+  padding-top: 208px;
   padding-right: 24px;
   padding-left: 71px;
 }
@@ -231,7 +232,7 @@ body {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding: 181px 50px 182px;
+  padding: 180px 50px 82px;
 }
 
 .footer__links-list {
