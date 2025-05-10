@@ -21,23 +21,27 @@ a {
 
 .header__menu-list {
   display: flex;
-  font-size: 18px;
   flex-direction: row;
   gap: 30px;
+  font-size: 18px;
   list-style: circle;
 }
 
 .address {
   justify-self: end;
   max-width: 240px;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+  
 }
 
 .cover {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 757px;
   justify-content: center;
+  height: 757px;
   background-image: url(/images/cover.jpg);
   background-position: center;
   background-size: cover;
@@ -55,10 +59,10 @@ a {
 
 .cover__title {
   z-index: 1;
-  text-align: center;
   color:#FFFFFF;
   font-size: 100px;
   letter-spacing: 0.3em;
+  text-align: center;
   text-transform: uppercase;
 
 }
@@ -71,33 +75,37 @@ a {
 }
 
 .middle-word {
-  padding-left: 380.5px;
-  padding-right: 380.5px;
   display: block;
+  padding-top: 20px;
+  padding-right: 380.5px;
+  padding-left: 380.5px;
   text-align: center;
 }
 
 .right-word {
   display: block;
-  text-align: end;
-  padding-left: 663px;
+  padding-top: 20px;
   padding-right: 50px;
+  padding-left: 663px;
+  text-align: end;
 }
 
 .cover__description {
   z-index: 1;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 100px 82px 61px 50px;
+  gap: 115px;
+  padding: 106px 50px 71px 25px;
   font-size: 22px;
+  line-height: 28px;
 }
 
 .cover__description-text {
   color: #FFFFFF;
   text-align: center;
   text-transform: uppercase;
-  word-spacing: 15px;
+  word-spacing: 20px;
 }
 
 .bet-button {
@@ -111,7 +119,7 @@ a {
 .lots__heading {
   padding-top: 180px;
   padding-bottom: 27px;
-  padding-left: 40px;
+  padding-left: 61px;
   font-size: 40px;
   text-align: start;
   text-transform: uppercase;
@@ -120,7 +128,7 @@ a {
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style: none;
 }
 
@@ -189,7 +197,7 @@ a {
 .lots__look-more-link {
   display: block;
   padding-top: 30px;
-  padding-left: 40px;
+  padding-left: 64px;
   font-size: 20px;
 }
 
@@ -238,6 +246,7 @@ a {
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   padding: 180px 50px 82px;
+  font-size: 18px;
 }
 
 .footer__links-list {
