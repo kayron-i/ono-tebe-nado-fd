@@ -237,7 +237,7 @@ body {
 .footer__links-list {
   display: flex;
   justify-self:end;
-  gap: 10px;
+  gap: 48px;
 }
 
 .footer__links-list-item {
