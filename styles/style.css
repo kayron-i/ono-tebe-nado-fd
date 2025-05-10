@@ -17,18 +17,18 @@ body {
 .header__menu-list {
   display: flex;
   flex-direction: row;
-  list-style: circle;
   gap: 30px;
+  list-style: circle;
 }
 
 .address {
-  max-width: 240px;
   justify-self: end;
+  max-width: 240px;
 }
 
 .cover {
-  display: flex;
   position: relative;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   background-image: url(/images/cover.jpg);
@@ -39,26 +39,26 @@ body {
   position: absolute;
   top:0;
   left:0;
+  z-index: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-  z-index: 0;
 }
 
 .cover__title {
-  color:#FFFFFF;
-  text-transform: uppercase;
   z-index: 1;
-  letter-spacing: 0.3em;
-  font-size: 100px;
   padding-top: 165px;
   padding-bottom: 205px;
+  color:#FFFFFF;
+  font-size: 100px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
 
 }
 
 .left-word {
-  padding-left: 50px ;
   display: block;
+  padding-left: 50px ;
   text-align:start;
 
 }
@@ -74,94 +74,94 @@ body {
 }
 
 .cover__description {
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
-  padding-left: 50px;
   padding-right: 82px;
   padding-bottom: 50px;
+  padding-left: 50px;
   font-size: 22px;
 }
 
 .cover__description-text {
-  word-spacing: 15px;
   color: #FFFFFF;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
+  word-spacing: 15px;
 }
 
 .bet-button {
-  color: #FFFFFF;
-  background: transparent;
   border: 1px solid #FFFFFF;
   padding: 12px 31px;
+  color: #FFFFFF;
   text-transform: uppercase;
+  background: transparent;
 }
 
 .lots__heading {
-  text-align: start;
-  text-transform: uppercase;
-  font-size: 40px;
   padding-top: 180px;
   padding-bottom: 27px;
   padding-left: 40px;
+  font-size: 40px;
+  text-align: start;
+  text-transform: uppercase;
 }
 
 .lots__card-list {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  list-style: none;
 }
 
 .lots__card-list-item {
   display: flex;
   flex-direction:column;
-  min-height: 596px;
   width: 334px;
+  min-height: 596px;
   list-style-type: none;
-  background-size: cover; 
+  background-repeat: no-repeat;
   background-position: center;
-  background-repeat: no-repeat; 
+  background-size: cover;
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  position: relative;
 }
 
 .card-link {
   display: block;
-  text-decoration: none;
   height: 100%;
+  text-decoration: none;
 }
 
 .card__title {
-  color: #FFFFFF;
-  text-transform: uppercase;
-  line-height: 120%;
+  margin-bottom: 0;
   padding-top: 48px;
-  padding-left: 40px;
   padding-right: 40px;
+  padding-left: 40px;
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 120%;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
-  font-size: 22px;
-  margin-bottom: 0;
+  text-transform: uppercase;
 
 }
 
 .card__text {
-  color: #FFFFFF;
-  padding-left: 40px;
   padding-right: 40px;
-  line-height: 120%;
-  font-size: 20px;
   padding-bottom: 48px;
+  padding-left: 40px;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 120%;
 
 }
 
@@ -189,15 +189,15 @@ body {
   grid-template-columns: 334px 1fr;
   grid-template-rows: 1fr ;
   padding-top: 120px;
-  padding-left: 71px;
   padding-right: 24px;
+  padding-left: 71px;
 }
 
 .about__title {
-  text-transform: uppercase;
   grid-column: 2 / 3;
   align-content: center;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 .about__description {
@@ -212,16 +212,16 @@ body {
 
 .about__logo {
   display: flex;
-  align-items: center;
-  background-image: url(/images/logo-white.svg);
-  background-color: black;
   grid-row: 1/2;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 60%;
+  align-items: center;
   width: 240px;
   height: 240px;
   border-radius: 50%;
+  background-color: black;
+  background-image: url(/images/logo-white.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
 }
 
 .footer {
@@ -233,20 +233,19 @@ body {
 
 .footer__links-list {
   display: flex;
-  gap: 10px;
   justify-self:end;
+  gap: 10px;
 }
 
 .footer__links-list-item {
-  list-style: none;
   width: 48px;
   height: 48px;
+  list-style: none;
 }
 
-.footer__address{
+.footer__address {
+  justify-self: start;
   text-align: left;
-  justify-self:start
-
 }
 
 .footer__menu {
@@ -254,8 +253,8 @@ body {
 }
 
 .footer__menu-list-item {
-  list-style: none;
   text-align: center;
+  list-style: none;
 }
 
 .header__links-list-item_no-bullit a,
