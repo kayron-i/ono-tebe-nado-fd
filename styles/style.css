@@ -2,6 +2,11 @@ body {
   background-color: #FFFFFF;
 }
 
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -192,7 +197,7 @@ body {
   display: grid;
   grid-template-columns: 334px 1fr;
   grid-template-rows: 1fr ;
-  padding-top: 208px;
+  padding-top: 155px;
   padding-right: 24px;
   padding-left: 71px;
 }
