@@ -30,9 +30,11 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  height: 757px;
   justify-content: center;
   background-image: url(/images/cover.jpg);
-  background-repeat:round;
+  background-position: center;
+  background-size: cover;
 }
 
 .overlay {
@@ -47,8 +49,7 @@ body {
 
 .cover__title {
   z-index: 1;
-  padding-top: 165px;
-  padding-bottom: 205px;
+  text-align: center;
   color:#FFFFFF;
   font-size: 100px;
   letter-spacing: 0.3em;
@@ -58,12 +59,14 @@ body {
 
 .left-word {
   display: block;
+  padding-top: 165px;
   padding-left: 50px ;
   text-align:start;
-
 }
 
 .middle-word {
+  padding-left: 380.5px;
+  padding-right: 380.5px;
   display: block;
   text-align: center;
 }
@@ -71,6 +74,8 @@ body {
 .right-word {
   display: block;
   text-align: end;
+  padding-left: 663px;
+  padding-right: 50px;
 }
 
 .cover__description {
@@ -78,9 +83,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 82px;
-  padding-bottom: 50px;
-  padding-left: 50px;
+  padding: 100px 82px 61px 50px;
   font-size: 22px;
 }
 
